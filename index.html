@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Create a function</h1>
+    <pre>
+        
+function Check(obj1){
+    obj1.setter=function(){
+      console.log(obj1.name);
+    }
+   }
+    </pre>
+    <h1>Delete a parameter</h1>
+    <pre>
+        
+function Check(obj1){
+    obj1.setter=function(){
+      console.log(obj1.name);
+    }
+   }
+    </pre>
+    <h1>Check whether the package is dream package or not</h1>
+    <pre>
+        function Check(obj1) {
+           if(obj1.salary>500000){
+             return "Dream"
+           } 
+           else{
+             return "NotDream"
+           }
+        }
+        
+        </pre>
+        <h1>Check wheather the object has parameter or not</h1>
+        <pre>
+            function Check(obj1) {
+            let ans=0;
+            for(let x in obj1){
+              ans+=1;
+            }
+            if(ans===0){
+              return "false";
+            }
+            else if(ans>0){
+              return "true";
+            }
+            }
+            
+            </pre>
+            <h1>Merge the objects</h1>
+            <pre>
+                function Check(obj1,obj2) {
+                  return Object.assign(obj1,obj2);
+                }
+                
+                </pre>
+                <h1>Object multipler</h1>
+                <pre>
+                    function Check(a,obj1) {
+                    
+                      return obj1.id*a+"<br>"+obj1.houseno*a;
+                    }
+                    
+                    </pre>
+                    <h1>Find the sum of Data members</h1>
+                    <pre>
+                        function Check(obj1) {
+                         return obj1.p1+obj1.p2+obj1.p3;   
+                        }
+                        
+                        
+                        </pre>
+                        <h1>Check wheater the objects are same or not</h1>
+                        <pre>
+                            function check(obj1,a,b) {
+                                if(obj1.name===a && obj1.id===b){
+                                  return "true"
+                                }
+                                else{
+                                  return "false"
+                                }
+                            }
+                            
+                            </pre>
+</body>
+</html>
